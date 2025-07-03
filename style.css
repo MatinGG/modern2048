@@ -1,4 +1,23 @@
-.bigbox{
-    width: 6400;
-    background-color: red;
-}
+   body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 100px);
+      grid-template-rows: repeat(4, 100px);
+      gap: 10px;
+            background-color:  rgb(156,139,124);
+      padding: 10px;
+      border-radius: 15px;
+    }
+
+    .cell {
+      width: 100px;
+      height: 100px;
+            background-color: rgb(189,172,151);
+      border-radius: 15px;
+    }
