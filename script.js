@@ -1,3 +1,3 @@
 function sayhi(){
     alert("mamad!!")
-}               
+}
