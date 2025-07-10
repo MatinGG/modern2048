@@ -1,3 +1,5 @@
-const num = [1,2,3,4]
+function sayhi(){
+ const num = [1,2,3,4]
 const num2 = num*4
-console.log(num2)
+console.log(num2)   
+}
