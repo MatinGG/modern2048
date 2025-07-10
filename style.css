@@ -14,8 +14,8 @@
       border-radius: 15px;
     }
     .cell {
+      border-radius: 15px;
       width: 100px;
       height: 100px;
       background-color: rgb(189,172,151);
-      border-radius: 15px;
     }
