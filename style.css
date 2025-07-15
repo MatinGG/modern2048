@@ -1,21 +1,50 @@
-   body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 500px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(4, 100px);
-      grid-template-rows: repeat(4, 100px);
-      gap: 10px;
-      background-color:  rgb(156,139,124);
-      padding: 10px;
-      border-radius: 15px;
-    }
-    .cell {
-      border-radius: 15px;
-      width: 100px;
-      height: 100px;
-      background-color: rgb(230, 227, 227);
-    }
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  touch-action: none; /* prevents default scrolling/pinch-zoom */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAF8F0;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  background-color: #9B8674;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+.cell {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 10px;
+}
+
+@media (min-width: 640px) {
+  #grid {
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 24px;
+  }
+
+  .cell {
+    border-radius: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cell {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 16px;
+  }
+}
