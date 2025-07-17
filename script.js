@@ -15,6 +15,7 @@ const PALETTE = [
   '#00DFA2', // 512 – mint jelly
   '#A2E04F', // 1024 – sour apple
   '#F9E84C'  // 2048+ – 🍯 honey gold sparkle
+  
 ];
 
 

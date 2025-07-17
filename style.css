@@ -6,7 +6,7 @@ body, html {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  touch-action: none; /* prevents default scrolling/pinch-zoom */
+  touch-action: none; 
   height: 100%;
   display: flex;
   align-items: center;
